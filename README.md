@@ -1,10 +1,10 @@
-# 📊 Marjin ERP — Finans & Kar/Zarar Paneli
+# Marjin ERP — Finans & Kar/Zarar Paneli
 
 Trendyol satışlarınız için otomatik kar/zarar hesaplama ve dashboard uygulaması. PyQt6 ile geliştirilmiş, yerel SQLite veritabanı kullanan masaüstü bir ERP paneli.
 
 ![Dashboard](assets/screenshots/dashboard.png)
 
-## ✨ Özellikler
+## Özellikler
 
 - **Otomatik kâr/zarar hesaplama** — komisyon, kargo, paketleme ve alış maliyetlerini tek seferde girip her siparişte otomatik hesaplatın
 - **Excel içe aktarma** — Trendyol sipariş raporunu tek tıkla içeri alın, sistem satırları otomatik işler
@@ -14,13 +14,13 @@ Trendyol satışlarınız için otomatik kar/zarar hesaplama ve dashboard uygula
 - **KDV takibi** — aylık hesaplanan/indirilecek/ödenecek KDV özeti
 - **PDF/Excel rapor** — tek tıkla şirket raporunu dışa aktarın
 
-## 🛠️ Teknoloji
+## Teknoloji
 
 Python 3.11+ · PyQt6 · SQLite3 · pandas · matplotlib · openpyxl
 
 ---
 
-## 🚀 Kurulum
+## Kurulum
 
 ### 1. Python 3.11+ yükleyin
 https://www.python.org/downloads/
@@ -37,7 +37,7 @@ python main.py
 
 ---
 
-## 📖 Kullanım Kılavuzu
+## Kullanım Kılavuzu
 
 ### Adım 1 — Ürün Maliyetlerini Girin
 - Sol menüden **"Ürün Maliyetleri"** sekmesine gidin
@@ -71,7 +71,7 @@ Net Kar = Faturalanacak Tutar
 
 ---
 
-## 📁 Veri Depolama
+## Veri Depolama
 
 Veriler bilgisayarınızdaki şu konuma kaydedilir:
 ```
@@ -81,7 +81,7 @@ Bu dosyayı yedeklemeniz verilerinizi korur.
 
 ---
 
-## ⚠️ Önemli Notlar
+## Önemli Notlar
 
 - Alış maliyeti girilmemiş ürünler için kar hesabı **eksik** olur
 - Aynı Excel'i iki kez aktarırsanız siparişler **tekrar eklenir** — dikkatli olun
@@ -89,7 +89,7 @@ Bu dosyayı yedeklemeniz verilerinizi korur.
 
 ---
 
-## 🔧 Sorun Giderme
+## Sorun Giderme
 
 **"ModuleNotFoundError: No module named 'PyQt6'"**
 → `pip install PyQt6` komutunu çalıştırın
