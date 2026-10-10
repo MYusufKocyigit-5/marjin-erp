@@ -86,6 +86,13 @@ Bu dosyayı yedeklemeniz verilerinizi korur.
 - Alış maliyeti girilmemiş ürünler için kar hesabı **eksik** olur
 - Aynı Excel'i iki kez aktarırsanız siparişler **tekrar eklenir** — dikkatli olun
 - Trendyol'un rapor formatı değişirse `core/excel_parser.py` dosyasındaki `COLUMN_MAP` güncellenmelidir
+- **İadeler şu an net kâr hesabına dahil değildir** — bu nedenle görüntülenen kâr, iade oranı yüksek dönemlerde olduğundan fazla görünebilir (bkz. Yol Haritası)
+
+---
+
+## Yol Haritası
+
+- [ ] **İade takibi** — iade edilen siparişlerin kâr/zarar hesaplamasından otomatik düşülmesi (şu an iadeler hesaba dahil değil, bu nedenle net kâr olduğundan yüksek görünebilir)
 
 ---
 
